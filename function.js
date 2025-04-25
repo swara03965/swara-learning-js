@@ -27,3 +27,13 @@ m4 = 98;
 m5 = 78;
 c = cgpa(m1,m2,m3,m4,m5);
 console.log(c);
+
+
+//Arrow function 
+function sum(a,b) {
+    return a+b;
+
+}
+sum = (a,b ) => {
+    return a+b;
+}
